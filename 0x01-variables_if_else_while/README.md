@@ -1,1 +1,1 @@
-Write a program that prints all possible combinations of two two-digit numbers
+Write a program that prints the alphabet in lowercase, followed by a new line
