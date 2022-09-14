@@ -7,4 +7,5 @@ int print_sign(int n);
 int _ads(int);
 int print_last_digit(int);
 void jack_bauer(void);
-void time_table(void);
+int add(int, int);
+
