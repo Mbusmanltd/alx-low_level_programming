@@ -1,5 +1,6 @@
 #include "main.h"
 
+<<<<<<< HEAD
 
 
 /**
@@ -38,4 +39,24 @@ int _islower(int c)
 
 									}
 
+=======
+/**
+ * _islower -checks for lowercase character
+ *
+ * @c: integer 1 or 0
+ *
+ * Return: 1 lowercase 0 Not
+ *
+ */
+int _islower(int c)
+{
+	if (c > 96 && c < 123)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
+>>>>>>> 0acd7f73402b38ff4a630a3071e875e9713307a1
 }

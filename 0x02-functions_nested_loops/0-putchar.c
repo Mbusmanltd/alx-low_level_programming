@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 
 
 
@@ -44,4 +45,20 @@ int main(void)
 
 											return (0);
 
+=======
+/**
+ * main - Entry point
+ *
+ * Return: always 0(Success)
+ */
+int main(void)
+{
+	char str[] = "_putchar";
+	int ch;
+
+	for (ch = 0; ch < 8; ++ch)
+		_putchar(str[ch]);
+	_putchar('\n');
+	return (0);
+>>>>>>> 0acd7f73402b38ff4a630a3071e875e9713307a1
 }
