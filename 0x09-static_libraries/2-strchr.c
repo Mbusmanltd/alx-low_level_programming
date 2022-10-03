@@ -1,5 +1,4 @@
 #include "main.h"
-<<<<<<< HEAD
 
 
 
@@ -41,26 +40,4 @@ char *_strchr(char *s, char c)
 
 				return ('\0');
 
-=======
-#include <stdio.h>
-
-/**
- * _strchr - a function that locates a character in a string.
- * @s: an input string to search in
- * @c: an input character to locate into string s
- * Return: returns pointer to c position
- */
-char *_strchr(char *s, char c)
-{
-
-	while (*s)
-	{
-		if (c == *s)
-			return (s);
-		s++;
-	}
-	if (c == *s)
-		return (s);
-	return (NULL);
->>>>>>> 0acd7f73402b38ff4a630a3071e875e9713307a1
 }
